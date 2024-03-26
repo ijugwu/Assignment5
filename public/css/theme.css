@@ -1,0 +1,84 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+/* General Body Styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* Soft blue gradient */
+    font-family: 'Nunito', sans-serif; /* Apply Google Font Nunito */
+    overflow: auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #343a40; /* Dark gray background */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), /* Outer shadow */
+                0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Inner shadow */
+}
+
+.navbar-brand {
+    color: #ffffff; /* White text for brand */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Text shadow for brand */
+}
+
+.nav-link {
+    color: #cccccc; /* Light gray for links */
+}
+
+.nav-link:hover {
+    color: #ffffff; /* White on hover */
+}
+
+/* Primary Button Styling */
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #ffffff; /* White text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darkened blue on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #f2f2f2; /* Light grey for odd rows */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light border for separation */
+}
+
+/* Heading Elements */
+h1, h2, h3, h4, h5, h6 {
+    color: #343a40; /* Dark grey color for headings */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Text shadow for headings */
+}
+
+/* Link Styling */
+a {
+    color: #007bff; /* Bootstrap primary color for links */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3; /* Darkened blue on hover */
+    text-decoration: none; /* No underline on hover */
+}
+
+/* Fieldset Legends */
+legend {
+    padding-top: 20px; /* Spacing at the top */
+    padding-bottom: 20px; /* Spacing at the bottom */
+    color: #343a40;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
